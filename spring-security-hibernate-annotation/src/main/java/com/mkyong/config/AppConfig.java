@@ -28,7 +28,7 @@ public class AppConfig {
         builder
         	.scanPackages("com.mkyong.users.model")
             .addProperties(getHibernateProperties());
-
+        //test
         return builder.buildSessionFactory();
     }
 
